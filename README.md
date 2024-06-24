@@ -43,31 +43,31 @@ yarn dev
 A aplicação estará disponível em http://localhost:3000.
 
 ## Estrutura dos Componentes
-### src/assets/css
+`src/assets/css`
 Contém os arquivos de estilos utilizados na aplicação.
 
-### src/components/buttons/
+`src/components/buttons/`
 Componentes de botões utilizados na aplicação.
 
-### src/components/cidade/
+`src/components/cidade/`
 Componentes relacionados ao gerenciamento de Cidades.
 
-### src/components/estado/
+`src/components/estado/`
 Componentes relacionados ao gerenciamento de Estados.
 
-### src/components/modals/
+`src/components/modals/`
 Componentes de modais utilizados para interações na aplicação.
 
-### src/components/prefeito/
+`src/components/prefeito/`
 Componentes relacionados ao gerenciamento de Prefeitos.
 
-### src/models/
+`src/models/`
 Modelos TypeScript para as entidades Cidade (cidade.ts), Estado (estado.ts) e Prefeito (prefeito.ts).
 
-### src/services/service.ts
+`src/services/service.ts`
 Serviço para chamadas API utilizando a biblioteca Axios. Contém constantes para operações de get, save, update e delete.
 
-### src/utils/request.ts
+`src/utils/request.ts`
 Contém a constante BASE_URL que é utilizada nos serviços para realizar as requisições à API.
 
 ## Contribuição
